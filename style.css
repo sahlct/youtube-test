@@ -9,12 +9,16 @@ a {
 }
 
 .atag {
+    
     text-decoration: none;
     color: black;
     display: block;
     padding: 20px;
+    border-radius: 15px;
 }
-
+.atag:hover{
+    background-color: #f2f2f2;
+}
 ul {
     overflow-y: scroll; /* Enable vertical scrollbar */
     scrollbar-width: thin; /* Firefox */
@@ -28,11 +32,6 @@ ul::-webkit-scrollbar {
 ul::-webkit-scrollbar-thumb {
     background-color: transparent;
 }
-
-body {
-    overflow-y: hidden;
-}
-
 .nav-link {
     white-space: nowrap;
     --bs-nav-pills-border-radius: var(--bs-border-radius);
@@ -49,6 +48,12 @@ body {
 option{
     border: none;
 }
-iframe:hover{
-    "playvideo()"
+body{
+    /* box-sizing: border-box; */
+    /* scroll-behavior: smooth;
+    overflow: scroll; */
+
+}
+*{
+    box-sizing: border-box;
 }

@@ -1,0 +1,54 @@
+span {
+    color: black;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.atag {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 20px;
+}
+
+ul {
+    overflow-y: scroll; /* Enable vertical scrollbar */
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: transparent transparent; /* Firefox */
+}
+
+ul::-webkit-scrollbar {
+    width: 1px;
+}
+
+ul::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+.nav-link {
+    white-space: nowrap;
+    --bs-nav-pills-border-radius: var(--bs-border-radius);
+    --bs-nav-pills-link-active-color: white;
+    --bs-nav-pills-link-active-bg: #050505;
+}
+.icon-a{
+    color: black;
+}
+.card-body{
+    width: 100%;
+    height: 100px;
+}
+option{
+    border: none;
+}
+iframe:hover{
+    "playvideo()"
+}
